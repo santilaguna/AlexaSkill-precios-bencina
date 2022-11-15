@@ -1,0 +1,1918 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "precio bencina",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "PreguntarPrecioBencina",
+          "slots": [
+            {
+              "name": "tipo",
+              "type": "TipoBencina",
+              "samples": [
+                "bencina {tipo}",
+                "{tipo}"
+              ]
+            },
+            {
+              "name": "comuna_uno",
+              "type": "Comuna",
+              "samples": [
+                "{comuna_uno}",
+                "en {comuna_uno}"
+              ]
+            },
+            {
+              "name": "comuna_dos",
+              "type": "Comuna"
+            },
+            {
+              "name": "comuna_tres",
+              "type": "Comuna"
+            }
+          ],
+          "samples": [
+            "Alexa donde me conviene comprar bencina {tipo} en {comuna_uno} {comuna_dos} y {comuna_tres}",
+            "Precio de la bencina {tipo} en {comuna_uno} {comuna_dos} y {comuna_tres}",
+            "Dime el precio de la bencina {tipo} en {comuna_uno} {comuna_dos} y {comuna_tres}",
+            "Precio bencina {tipo} en {comuna_uno} {comuna_dos} y {comuna_tres}",
+            "Precio bencina"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Arica"
+              }
+            },
+            {
+              "name": {
+                "value": "Camarones"
+              }
+            },
+            {
+              "name": {
+                "value": "Putre"
+              }
+            },
+            {
+              "name": {
+                "value": "General Lagos"
+              }
+            },
+            {
+              "name": {
+                "value": "Iquique"
+              }
+            },
+            {
+              "name": {
+                "value": "Alto Hospicio"
+              }
+            },
+            {
+              "name": {
+                "value": "Pozo Almonte"
+              }
+            },
+            {
+              "name": {
+                "value": "Camiña"
+              }
+            },
+            {
+              "name": {
+                "value": "Colchane"
+              }
+            },
+            {
+              "name": {
+                "value": "Huara"
+              }
+            },
+            {
+              "name": {
+                "value": "Pica"
+              }
+            },
+            {
+              "name": {
+                "value": "Antofagasta"
+              }
+            },
+            {
+              "name": {
+                "value": "Mejillones"
+              }
+            },
+            {
+              "name": {
+                "value": "Sierra Gorda"
+              }
+            },
+            {
+              "name": {
+                "value": "Taltal"
+              }
+            },
+            {
+              "name": {
+                "value": "Calama"
+              }
+            },
+            {
+              "name": {
+                "value": "Ollagüe"
+              }
+            },
+            {
+              "name": {
+                "value": "San Pedro de Atacama"
+              }
+            },
+            {
+              "name": {
+                "value": "Tocopilla"
+              }
+            },
+            {
+              "name": {
+                "value": "María Elena"
+              }
+            },
+            {
+              "name": {
+                "value": "Copiapó"
+              }
+            },
+            {
+              "name": {
+                "value": "Caldera"
+              }
+            },
+            {
+              "name": {
+                "value": "Tierra Amarilla"
+              }
+            },
+            {
+              "name": {
+                "value": "Chañaral"
+              }
+            },
+            {
+              "name": {
+                "value": "Diego de Almagro"
+              }
+            },
+            {
+              "name": {
+                "value": "Vallenar"
+              }
+            },
+            {
+              "name": {
+                "value": "Alto del Carmen"
+              }
+            },
+            {
+              "name": {
+                "value": "Freirina"
+              }
+            },
+            {
+              "name": {
+                "value": "Huasco"
+              }
+            },
+            {
+              "name": {
+                "value": "La Serena"
+              }
+            },
+            {
+              "name": {
+                "value": "Coquimbo"
+              }
+            },
+            {
+              "name": {
+                "value": "Andacollo"
+              }
+            },
+            {
+              "name": {
+                "value": "La Higuera"
+              }
+            },
+            {
+              "name": {
+                "value": "Paiguano"
+              }
+            },
+            {
+              "name": {
+                "value": "Vicuña"
+              }
+            },
+            {
+              "name": {
+                "value": "Illapel"
+              }
+            },
+            {
+              "name": {
+                "value": "Canela"
+              }
+            },
+            {
+              "name": {
+                "value": "Los Vilos"
+              }
+            },
+            {
+              "name": {
+                "value": "Salamanca"
+              }
+            },
+            {
+              "name": {
+                "value": "Ovalle"
+              }
+            },
+            {
+              "name": {
+                "value": "Combarbalá"
+              }
+            },
+            {
+              "name": {
+                "value": "Monte Patria"
+              }
+            },
+            {
+              "name": {
+                "value": "Punitaqui"
+              }
+            },
+            {
+              "name": {
+                "value": "Río Hurtado"
+              }
+            },
+            {
+              "name": {
+                "value": "Valparaíso"
+              }
+            },
+            {
+              "name": {
+                "value": "Casablanca"
+              }
+            },
+            {
+              "name": {
+                "value": "Concón"
+              }
+            },
+            {
+              "name": {
+                "value": "Juan Fernández"
+              }
+            },
+            {
+              "name": {
+                "value": "Puchuncaví"
+              }
+            },
+            {
+              "name": {
+                "value": "Quintero"
+              }
+            },
+            {
+              "name": {
+                "value": "Viña del Mar"
+              }
+            },
+            {
+              "name": {
+                "value": "Isla de Pascua"
+              }
+            },
+            {
+              "name": {
+                "value": "Los Andes"
+              }
+            },
+            {
+              "name": {
+                "value": "Calle Larga"
+              }
+            },
+            {
+              "name": {
+                "value": "Rinconada"
+              }
+            },
+            {
+              "name": {
+                "value": "San Esteban"
+              }
+            },
+            {
+              "name": {
+                "value": "La Ligua"
+              }
+            },
+            {
+              "name": {
+                "value": "Cabildo"
+              }
+            },
+            {
+              "name": {
+                "value": "Papudo"
+              }
+            },
+            {
+              "name": {
+                "value": "Petorca"
+              }
+            },
+            {
+              "name": {
+                "value": "Zapallar"
+              }
+            },
+            {
+              "name": {
+                "value": "Quillota"
+              }
+            },
+            {
+              "name": {
+                "value": "Calera"
+              }
+            },
+            {
+              "name": {
+                "value": "Hijuelas"
+              }
+            },
+            {
+              "name": {
+                "value": "La Cruz"
+              }
+            },
+            {
+              "name": {
+                "value": "Nogales"
+              }
+            },
+            {
+              "name": {
+                "value": "San Antonio"
+              }
+            },
+            {
+              "name": {
+                "value": "Algarrobo"
+              }
+            },
+            {
+              "name": {
+                "value": "Cartagena"
+              }
+            },
+            {
+              "name": {
+                "value": "El Quisco"
+              }
+            },
+            {
+              "name": {
+                "value": "El Tabo"
+              }
+            },
+            {
+              "name": {
+                "value": "Santo Domingo"
+              }
+            },
+            {
+              "name": {
+                "value": "San Felipe"
+              }
+            },
+            {
+              "name": {
+                "value": "Catemu"
+              }
+            },
+            {
+              "name": {
+                "value": "Llaillay"
+              }
+            },
+            {
+              "name": {
+                "value": "Panquehue"
+              }
+            },
+            {
+              "name": {
+                "value": "Putaendo"
+              }
+            },
+            {
+              "name": {
+                "value": "Santa María"
+              }
+            },
+            {
+              "name": {
+                "value": "Quilpué"
+              }
+            },
+            {
+              "name": {
+                "value": "Limache"
+              }
+            },
+            {
+              "name": {
+                "value": "Olmué"
+              }
+            },
+            {
+              "name": {
+                "value": "Villa Alemana"
+              }
+            },
+            {
+              "name": {
+                "value": "Rancagua"
+              }
+            },
+            {
+              "name": {
+                "value": "Codegua"
+              }
+            },
+            {
+              "name": {
+                "value": "Coinco"
+              }
+            },
+            {
+              "name": {
+                "value": "Coltauco"
+              }
+            },
+            {
+              "name": {
+                "value": "Doñihue"
+              }
+            },
+            {
+              "name": {
+                "value": "Graneros"
+              }
+            },
+            {
+              "name": {
+                "value": "Las Cabras"
+              }
+            },
+            {
+              "name": {
+                "value": "Machalí"
+              }
+            },
+            {
+              "name": {
+                "value": "Malloa"
+              }
+            },
+            {
+              "name": {
+                "value": "Mostazal"
+              }
+            },
+            {
+              "name": {
+                "value": "Olivar"
+              }
+            },
+            {
+              "name": {
+                "value": "Peumo"
+              }
+            },
+            {
+              "name": {
+                "value": "Pichidegua"
+              }
+            },
+            {
+              "name": {
+                "value": "Quinta de Tilcoco"
+              }
+            },
+            {
+              "name": {
+                "value": "Rengo"
+              }
+            },
+            {
+              "name": {
+                "value": "Requínoa"
+              }
+            },
+            {
+              "name": {
+                "value": "San Vicente"
+              }
+            },
+            {
+              "name": {
+                "value": "Pichilemu"
+              }
+            },
+            {
+              "name": {
+                "value": "La Estrella"
+              }
+            },
+            {
+              "name": {
+                "value": "Litueche"
+              }
+            },
+            {
+              "name": {
+                "value": "Marchihue"
+              }
+            },
+            {
+              "name": {
+                "value": "Navidad"
+              }
+            },
+            {
+              "name": {
+                "value": "Paredones"
+              }
+            },
+            {
+              "name": {
+                "value": "San Fernando"
+              }
+            },
+            {
+              "name": {
+                "value": "Chépica"
+              }
+            },
+            {
+              "name": {
+                "value": "Chimbarongo"
+              }
+            },
+            {
+              "name": {
+                "value": "Lolol"
+              }
+            },
+            {
+              "name": {
+                "value": "Nancagua"
+              }
+            },
+            {
+              "name": {
+                "value": "Palmilla"
+              }
+            },
+            {
+              "name": {
+                "value": "Peralillo"
+              }
+            },
+            {
+              "name": {
+                "value": "Placilla"
+              }
+            },
+            {
+              "name": {
+                "value": "Pumanque"
+              }
+            },
+            {
+              "name": {
+                "value": "Santa Cruz"
+              }
+            },
+            {
+              "name": {
+                "value": "Talca"
+              }
+            },
+            {
+              "name": {
+                "value": "Constitución"
+              }
+            },
+            {
+              "name": {
+                "value": "Curepto"
+              }
+            },
+            {
+              "name": {
+                "value": "Empedrado"
+              }
+            },
+            {
+              "name": {
+                "value": "Maule"
+              }
+            },
+            {
+              "name": {
+                "value": "Pelarco"
+              }
+            },
+            {
+              "name": {
+                "value": "Pencahue"
+              }
+            },
+            {
+              "name": {
+                "value": "Río Claro"
+              }
+            },
+            {
+              "name": {
+                "value": "San Clemente"
+              }
+            },
+            {
+              "name": {
+                "value": "San Rafael"
+              }
+            },
+            {
+              "name": {
+                "value": "Cauquenes"
+              }
+            },
+            {
+              "name": {
+                "value": "Chanco"
+              }
+            },
+            {
+              "name": {
+                "value": "Pelluhue"
+              }
+            },
+            {
+              "name": {
+                "value": "Curicó"
+              }
+            },
+            {
+              "name": {
+                "value": "Hualañé"
+              }
+            },
+            {
+              "name": {
+                "value": "Licantén"
+              }
+            },
+            {
+              "name": {
+                "value": "Molina"
+              }
+            },
+            {
+              "name": {
+                "value": "Rauco"
+              }
+            },
+            {
+              "name": {
+                "value": "Romeral"
+              }
+            },
+            {
+              "name": {
+                "value": "Sagrada Familia"
+              }
+            },
+            {
+              "name": {
+                "value": "Teno"
+              }
+            },
+            {
+              "name": {
+                "value": "Vichuquén"
+              }
+            },
+            {
+              "name": {
+                "value": "Linares"
+              }
+            },
+            {
+              "name": {
+                "value": "Colbún"
+              }
+            },
+            {
+              "name": {
+                "value": "Longaví"
+              }
+            },
+            {
+              "name": {
+                "value": "Parral"
+              }
+            },
+            {
+              "name": {
+                "value": "Retiro"
+              }
+            },
+            {
+              "name": {
+                "value": "San Javier"
+              }
+            },
+            {
+              "name": {
+                "value": "Villa Alegre"
+              }
+            },
+            {
+              "name": {
+                "value": "Yerbas Buenas"
+              }
+            },
+            {
+              "name": {
+                "value": "Cobquecura"
+              }
+            },
+            {
+              "name": {
+                "value": "Coelemu"
+              }
+            },
+            {
+              "name": {
+                "value": "Ninhue"
+              }
+            },
+            {
+              "name": {
+                "value": "Portezuelo"
+              }
+            },
+            {
+              "name": {
+                "value": "Quirihue"
+              }
+            },
+            {
+              "name": {
+                "value": "Ránquil"
+              }
+            },
+            {
+              "name": {
+                "value": "Treguaco"
+              }
+            },
+            {
+              "name": {
+                "value": "Bulnes"
+              }
+            },
+            {
+              "name": {
+                "value": "Chillán Viejo"
+              }
+            },
+            {
+              "name": {
+                "value": "Chillán"
+              }
+            },
+            {
+              "name": {
+                "value": "El Carmen"
+              }
+            },
+            {
+              "name": {
+                "value": "Pemuco"
+              }
+            },
+            {
+              "name": {
+                "value": "Pinto"
+              }
+            },
+            {
+              "name": {
+                "value": "Quillón"
+              }
+            },
+            {
+              "name": {
+                "value": "San Ignacio"
+              }
+            },
+            {
+              "name": {
+                "value": "Yungay"
+              }
+            },
+            {
+              "name": {
+                "value": "Coihueco"
+              }
+            },
+            {
+              "name": {
+                "value": "Ñiquén"
+              }
+            },
+            {
+              "name": {
+                "value": "San Carlos"
+              }
+            },
+            {
+              "name": {
+                "value": "San Fabián"
+              }
+            },
+            {
+              "name": {
+                "value": "San Nicolás"
+              }
+            },
+            {
+              "name": {
+                "value": "Concepción"
+              }
+            },
+            {
+              "name": {
+                "value": "Coronel"
+              }
+            },
+            {
+              "name": {
+                "value": "Chiguayante"
+              }
+            },
+            {
+              "name": {
+                "value": "Florida"
+              }
+            },
+            {
+              "name": {
+                "value": "Hualqui"
+              }
+            },
+            {
+              "name": {
+                "value": "Lota"
+              }
+            },
+            {
+              "name": {
+                "value": "Penco"
+              }
+            },
+            {
+              "name": {
+                "value": "San Pedro de la Paz"
+              }
+            },
+            {
+              "name": {
+                "value": "Santa Juana"
+              }
+            },
+            {
+              "name": {
+                "value": "Talcahuano"
+              }
+            },
+            {
+              "name": {
+                "value": "Tomé"
+              }
+            },
+            {
+              "name": {
+                "value": "Hualpén"
+              }
+            },
+            {
+              "name": {
+                "value": "Lebu"
+              }
+            },
+            {
+              "name": {
+                "value": "Arauco"
+              }
+            },
+            {
+              "name": {
+                "value": "Cañete"
+              }
+            },
+            {
+              "name": {
+                "value": "Contulmo"
+              }
+            },
+            {
+              "name": {
+                "value": "Curanilahue"
+              }
+            },
+            {
+              "name": {
+                "value": "Los Álamos"
+              }
+            },
+            {
+              "name": {
+                "value": "Tirúa"
+              }
+            },
+            {
+              "name": {
+                "value": "Los Ángeles"
+              }
+            },
+            {
+              "name": {
+                "value": "Antuco"
+              }
+            },
+            {
+              "name": {
+                "value": "Cabrero"
+              }
+            },
+            {
+              "name": {
+                "value": "Laja"
+              }
+            },
+            {
+              "name": {
+                "value": "Mulchén"
+              }
+            },
+            {
+              "name": {
+                "value": "Nacimiento"
+              }
+            },
+            {
+              "name": {
+                "value": "Negrete"
+              }
+            },
+            {
+              "name": {
+                "value": "Quilaco"
+              }
+            },
+            {
+              "name": {
+                "value": "Quilleco"
+              }
+            },
+            {
+              "name": {
+                "value": "San Rosendo"
+              }
+            },
+            {
+              "name": {
+                "value": "Santa Bárbara"
+              }
+            },
+            {
+              "name": {
+                "value": "Tucapel"
+              }
+            },
+            {
+              "name": {
+                "value": "Yumbel"
+              }
+            },
+            {
+              "name": {
+                "value": "Alto Biobío"
+              }
+            },
+            {
+              "name": {
+                "value": "Temuco"
+              }
+            },
+            {
+              "name": {
+                "value": "Carahue"
+              }
+            },
+            {
+              "name": {
+                "value": "Cunco"
+              }
+            },
+            {
+              "name": {
+                "value": "Curarrehue"
+              }
+            },
+            {
+              "name": {
+                "value": "Freire"
+              }
+            },
+            {
+              "name": {
+                "value": "Galvarino"
+              }
+            },
+            {
+              "name": {
+                "value": "Gorbea"
+              }
+            },
+            {
+              "name": {
+                "value": "Lautaro"
+              }
+            },
+            {
+              "name": {
+                "value": "Loncoche"
+              }
+            },
+            {
+              "name": {
+                "value": "Melipeuco"
+              }
+            },
+            {
+              "name": {
+                "value": "Nueva Imperial"
+              }
+            },
+            {
+              "name": {
+                "value": "Padre las Casas"
+              }
+            },
+            {
+              "name": {
+                "value": "Perquenco"
+              }
+            },
+            {
+              "name": {
+                "value": "Pitrufquén"
+              }
+            },
+            {
+              "name": {
+                "value": "Pucón"
+              }
+            },
+            {
+              "name": {
+                "value": "Saavedra"
+              }
+            },
+            {
+              "name": {
+                "value": "Teodoro Schmidt"
+              }
+            },
+            {
+              "name": {
+                "value": "Toltén"
+              }
+            },
+            {
+              "name": {
+                "value": "Vilcún"
+              }
+            },
+            {
+              "name": {
+                "value": "Villarrica"
+              }
+            },
+            {
+              "name": {
+                "value": "Cholchol"
+              }
+            },
+            {
+              "name": {
+                "value": "Angol"
+              }
+            },
+            {
+              "name": {
+                "value": "Collipulli"
+              }
+            },
+            {
+              "name": {
+                "value": "Curacautín"
+              }
+            },
+            {
+              "name": {
+                "value": "Ercilla"
+              }
+            },
+            {
+              "name": {
+                "value": "Lonquimay"
+              }
+            },
+            {
+              "name": {
+                "value": "Los Sauces"
+              }
+            },
+            {
+              "name": {
+                "value": "Lumaco"
+              }
+            },
+            {
+              "name": {
+                "value": "Purén"
+              }
+            },
+            {
+              "name": {
+                "value": "Renaico"
+              }
+            },
+            {
+              "name": {
+                "value": "Traiguén"
+              }
+            },
+            {
+              "name": {
+                "value": "Victoria"
+              }
+            },
+            {
+              "name": {
+                "value": "Valdivia"
+              }
+            },
+            {
+              "name": {
+                "value": "Corral"
+              }
+            },
+            {
+              "name": {
+                "value": "Lanco"
+              }
+            },
+            {
+              "name": {
+                "value": "Los Lagos"
+              }
+            },
+            {
+              "name": {
+                "value": "Máfil"
+              }
+            },
+            {
+              "name": {
+                "value": "Mariquina"
+              }
+            },
+            {
+              "name": {
+                "value": "Paillaco"
+              }
+            },
+            {
+              "name": {
+                "value": "Panguipulli"
+              }
+            },
+            {
+              "name": {
+                "value": "La Unión"
+              }
+            },
+            {
+              "name": {
+                "value": "Futrono"
+              }
+            },
+            {
+              "name": {
+                "value": "Lago Ranco"
+              }
+            },
+            {
+              "name": {
+                "value": "Río Bueno"
+              }
+            },
+            {
+              "name": {
+                "value": "Puerto Montt"
+              }
+            },
+            {
+              "name": {
+                "value": "Calbuco"
+              }
+            },
+            {
+              "name": {
+                "value": "Cochamó"
+              }
+            },
+            {
+              "name": {
+                "value": "Fresia"
+              }
+            },
+            {
+              "name": {
+                "value": "Frutillar"
+              }
+            },
+            {
+              "name": {
+                "value": "Los Muermos"
+              }
+            },
+            {
+              "name": {
+                "value": "Llanquihue"
+              }
+            },
+            {
+              "name": {
+                "value": "Maullín"
+              }
+            },
+            {
+              "name": {
+                "value": "Puerto Varas"
+              }
+            },
+            {
+              "name": {
+                "value": "Castro"
+              }
+            },
+            {
+              "name": {
+                "value": "Ancud"
+              }
+            },
+            {
+              "name": {
+                "value": "Chonchi"
+              }
+            },
+            {
+              "name": {
+                "value": "Curaco de Vélez"
+              }
+            },
+            {
+              "name": {
+                "value": "Dalcahue"
+              }
+            },
+            {
+              "name": {
+                "value": "Puqueldón"
+              }
+            },
+            {
+              "name": {
+                "value": "Queilén"
+              }
+            },
+            {
+              "name": {
+                "value": "Quellón"
+              }
+            },
+            {
+              "name": {
+                "value": "Quemchi"
+              }
+            },
+            {
+              "name": {
+                "value": "Quinchao"
+              }
+            },
+            {
+              "name": {
+                "value": "Osorno"
+              }
+            },
+            {
+              "name": {
+                "value": "Puerto Octay"
+              }
+            },
+            {
+              "name": {
+                "value": "Purranque"
+              }
+            },
+            {
+              "name": {
+                "value": "Puyehue"
+              }
+            },
+            {
+              "name": {
+                "value": "Río Negro"
+              }
+            },
+            {
+              "name": {
+                "value": "San Juan de la Costa"
+              }
+            },
+            {
+              "name": {
+                "value": "San Pablo"
+              }
+            },
+            {
+              "name": {
+                "value": "Chaitén"
+              }
+            },
+            {
+              "name": {
+                "value": "Futaleufú"
+              }
+            },
+            {
+              "name": {
+                "value": "Hualaihué"
+              }
+            },
+            {
+              "name": {
+                "value": "Palena"
+              }
+            },
+            {
+              "name": {
+                "value": "Coihaique"
+              }
+            },
+            {
+              "name": {
+                "value": "Lago Verde"
+              }
+            },
+            {
+              "name": {
+                "value": "Aisén"
+              }
+            },
+            {
+              "name": {
+                "value": "Cisnes"
+              }
+            },
+            {
+              "name": {
+                "value": "Guaitecas"
+              }
+            },
+            {
+              "name": {
+                "value": "Cochrane"
+              }
+            },
+            {
+              "name": {
+                "value": "O\u0027Higgins"
+              }
+            },
+            {
+              "name": {
+                "value": "Tortel"
+              }
+            },
+            {
+              "name": {
+                "value": "Chile Chico"
+              }
+            },
+            {
+              "name": {
+                "value": "Río Ibáñez"
+              }
+            },
+            {
+              "name": {
+                "value": "Punta Arenas"
+              }
+            },
+            {
+              "name": {
+                "value": "Laguna Blanca"
+              }
+            },
+            {
+              "name": {
+                "value": "Río Verde"
+              }
+            },
+            {
+              "name": {
+                "value": "San Gregorio"
+              }
+            },
+            {
+              "name": {
+                "value": "Cabo de Hornos (Ex Navarino)"
+              }
+            },
+            {
+              "name": {
+                "value": "Antártica"
+              }
+            },
+            {
+              "name": {
+                "value": "Porvenir"
+              }
+            },
+            {
+              "name": {
+                "value": "Primavera"
+              }
+            },
+            {
+              "name": {
+                "value": "Timaukel"
+              }
+            },
+            {
+              "name": {
+                "value": "Natales"
+              }
+            },
+            {
+              "name": {
+                "value": "Torres del Paine"
+              }
+            },
+            {
+              "name": {
+                "value": "Cerrillos"
+              }
+            },
+            {
+              "id": "Conchalí",
+              "name": {
+                "value": "Cerro Navia"
+              }
+            },
+            {
+              "name": {
+                "value": "El Bosque"
+              }
+            },
+            {
+              "name": {
+                "value": "Estación Central"
+              }
+            },
+            {
+              "name": {
+                "value": "Huechuraba"
+              }
+            },
+            {
+              "name": {
+                "value": "Independencia"
+              }
+            },
+            {
+              "name": {
+                "value": "La Cisterna"
+              }
+            },
+            {
+              "name": {
+                "value": "La Florida"
+              }
+            },
+            {
+              "name": {
+                "value": "La Granja"
+              }
+            },
+            {
+              "name": {
+                "value": "La Pintana"
+              }
+            },
+            {
+              "name": {
+                "value": "La Reina"
+              }
+            },
+            {
+              "name": {
+                "value": "Las Condes"
+              }
+            },
+            {
+              "name": {
+                "value": "Lo Barnechea"
+              }
+            },
+            {
+              "name": {
+                "value": "Lo Espejo"
+              }
+            },
+            {
+              "name": {
+                "value": "Lo Prado"
+              }
+            },
+            {
+              "name": {
+                "value": "Macul"
+              }
+            },
+            {
+              "name": {
+                "value": "Maipú"
+              }
+            },
+            {
+              "name": {
+                "value": "Ñuñoa"
+              }
+            },
+            {
+              "name": {
+                "value": "Pedro Aguirre Cerda"
+              }
+            },
+            {
+              "name": {
+                "value": "Peñalolén"
+              }
+            },
+            {
+              "name": {
+                "value": "Providencia"
+              }
+            },
+            {
+              "name": {
+                "value": "Pudahuel"
+              }
+            },
+            {
+              "name": {
+                "value": "Quilicura"
+              }
+            },
+            {
+              "name": {
+                "value": "Quinta Normal"
+              }
+            },
+            {
+              "name": {
+                "value": "Recoleta"
+              }
+            },
+            {
+              "name": {
+                "value": "Renca"
+              }
+            },
+            {
+              "name": {
+                "value": "Santiago"
+              }
+            },
+            {
+              "name": {
+                "value": "San Joaquín"
+              }
+            },
+            {
+              "name": {
+                "value": "San Miguel"
+              }
+            },
+            {
+              "name": {
+                "value": "San Ramón"
+              }
+            },
+            {
+              "name": {
+                "value": "Vitacura"
+              }
+            },
+            {
+              "name": {
+                "value": "Puente Alto"
+              }
+            },
+            {
+              "name": {
+                "value": "Pirque"
+              }
+            },
+            {
+              "name": {
+                "value": "San José de Maipo"
+              }
+            },
+            {
+              "name": {
+                "value": "Colina"
+              }
+            },
+            {
+              "name": {
+                "value": "Lampa"
+              }
+            },
+            {
+              "name": {
+                "value": "Tiltil"
+              }
+            },
+            {
+              "name": {
+                "value": "San Bernardo"
+              }
+            },
+            {
+              "name": {
+                "value": "Buin"
+              }
+            },
+            {
+              "name": {
+                "value": "Calera de Tango"
+              }
+            },
+            {
+              "name": {
+                "value": "Paine"
+              }
+            },
+            {
+              "name": {
+                "value": "Melipilla"
+              }
+            },
+            {
+              "name": {
+                "value": "Alhué"
+              }
+            },
+            {
+              "name": {
+                "value": "Curacaví"
+              }
+            },
+            {
+              "name": {
+                "value": "María Pinto"
+              }
+            },
+            {
+              "name": {
+                "value": "San Pedro"
+              }
+            },
+            {
+              "name": {
+                "value": "Talagante"
+              }
+            },
+            {
+              "name": {
+                "value": "El Monte"
+              }
+            },
+            {
+              "name": {
+                "value": "Isla de Maipo"
+              }
+            },
+            {
+              "name": {
+                "value": "Padre Hurtado"
+              }
+            },
+            {
+              "name": {
+                "value": "Peñaflor"
+              }
+            }
+          ],
+          "name": "Comuna"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Diesel"
+              }
+            },
+            {
+              "name": {
+                "value": "97"
+              }
+            },
+            {
+              "name": {
+                "value": "93"
+              }
+            },
+            {
+              "name": {
+                "value": "95"
+              }
+            }
+          ],
+          "name": "TipoBencina"
+        }
+      ]
+    },
+    "dialog": {
+      "intents": [
+        {
+          "name": "PreguntarPrecioBencina",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "tipo",
+              "type": "TipoBencina",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.783162101236.468410464849"
+              },
+              "validations": [
+                {
+                  "type": "hasEntityResolutionMatch",
+                  "prompt": "Slot.Validation.783162101236.468410464849.1412907291585"
+                }
+              ]
+            },
+            {
+              "name": "comuna_uno",
+              "type": "Comuna",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.783162101236.1523523816166"
+              },
+              "validations": [
+                {
+                  "type": "hasEntityResolutionMatch",
+                  "prompt": "Slot.Validation.783162101236.1523523816166.624061962144"
+                }
+              ]
+            },
+            {
+              "name": "comuna_dos",
+              "type": "Comuna",
+              "elicitationRequired": false,
+              "confirmationRequired": false,
+              "prompts": {}
+            },
+            {
+              "name": "comuna_tres",
+              "type": "Comuna",
+              "elicitationRequired": false,
+              "confirmationRequired": false,
+              "prompts": {}
+            }
+          ]
+        }
+      ],
+      "delegationStrategy": "ALWAYS"
+    },
+    "prompts": [
+      {
+        "id": "Slot.Validation.783162101236.1523523816166.624061962144",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "En cual comuna?"
+          }
+        ]
+      },
+      {
+        "id": "Slot.Validation.783162101236.468410464849.1412907291585",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Para cual tipo de bencina?"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.783162101236.468410464849",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Para cual tipo de bencina?"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.783162101236.1523523816166",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "En que comuna estas?"
+          },
+          {
+            "type": "PlainText",
+            "value": "Para cual comuna?"
+          }
+        ]
+      }
+    ]
+  },
+  "version": "8"
+}
